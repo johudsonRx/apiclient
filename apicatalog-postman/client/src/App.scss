@@ -1,0 +1,70 @@
+
+
+.app{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+    span{
+        color:#b5b1b1;
+    }
+    .content{
+        margin-bottom: 7em;
+        .ui.grid{
+            width:100%;
+            margin-left:5px;
+            margin-bottom: 20px;
+           
+    
+            section{
+                // border:1px solid red;
+               
+                div{
+                    margin:0 auto;
+                    padding: 10px;
+                }
+    
+                
+            }
+            & > div{
+                width: 92.5%;
+                margin-left: 9px;
+                margin-bottom: 20px;
+            }
+            .ui.basic.primary.button{
+                width:130px;
+                margin-left: 23px;
+            }
+    
+           
+        }
+
+        .request{
+
+            form{
+                .output{
+
+                    textarea{
+                        color:#fff;
+                    }
+                    .status{
+                        background:#6bb19f;
+                        font-size: 16px;
+                        color:#fff;
+                        line-height: 30px;
+                    }
+                }
+                & > div {
+
+                    & > div:last-child input{
+                        border:none;
+                        margin-top: 20px;
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

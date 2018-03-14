@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .app span {
+    color: #b5b1b1; }
+  .app .content {
+    margin-bottom: 7em; }
+    .app .content .ui.grid {
+      width: 100%;
+      margin-left: 5px;
+      margin-bottom: 20px; }
+      .app .content .ui.grid section div {
+        margin: 0 auto;
+        padding: 10px; }
+      .app .content .ui.grid > div {
+        width: 92.5%;
+        margin-left: 9px;
+        margin-bottom: 20px; }
+      .app .content .ui.grid .ui.basic.primary.button {
+        width: 130px;
+        margin-left: 23px; }
+    .app .content .request form .output textarea {
+      color: #fff; }
+    .app .content .request form .output .status {
+      background: #6bb19f;
+      font-size: 16px;
+      color: #fff;
+      line-height: 30px; }
+    .app .content .request form > div > div:last-child input {
+      border: none;
+      margin-top: 20px; }
